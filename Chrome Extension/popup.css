@@ -1,0 +1,81 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #4CAF50; /* Green color */
+  }
+  
+  .status {
+    font-size: 1.2rem;
+    color: #f44336; /* Red color */
+    margin-bottom: 20px;
+  }
+  
+  .notification {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 4px;
+    display: none; /* Hidden by default */
+  }
+  
+  .notification.success {
+    background-color: #4CAF50; /* Green for success */
+  }
+  
+  .notification.warning {
+    background-color: #f44336; /* Red for warning */
+  }
+  
+  .refreshBtn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .refreshBtn:hover {
+    transform: scale(1.05); /* Button hover animation */
+  }
+  
+  .refreshBtn:active {
+    transform: scale(0.95); /* Button active animation */
+  }
+  
+  .refreshBtn:focus {
+    outline: none;
+  }
+  
+ 
